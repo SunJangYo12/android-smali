@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_api_unavailable_text">%1$s necesita uno o varios servicios de Google Play que no están disponibles en este momento. Ponte en contacto con el desarrollador para obtener ayuda.</string>
+    <string name="common_google_play_services_enable_button">Habilitar servicios de Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s no funcionará hasta que no habilites los Servicios de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Habilita los Servicios de Google Play</string>
+    <string name="common_google_play_services_install_button">Descargar los Servicios de Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s no se ejecutará si los Servicios de Google Play no están instalados en tu teléfono.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s no se ejecutará si los Servicios de Google Play no están instalados en tu tablet.</string>
+    <string name="common_google_play_services_install_title">Descargar los Servicios de Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta.</string>
+    <string name="common_google_play_services_invalid_account_title">Cuenta no válida</string>
+    <string name="common_google_play_services_network_error_text">Se necesita una conexión de datos para establecer conexión con los Servicios de Google Play.</string>
+    <string name="common_google_play_services_network_error_title">Error de red</string>
+    <string name="common_google_play_services_notification_ticker">Error de servicios de Google Play</string>
+    <string name="common_google_play_services_resolution_required_text">Completa la acción que requiere %1$s.</string>
+    <string name="common_google_play_services_resolution_required_title">Acción necesaria en servicios de Play</string>
+    <string name="common_google_play_services_restricted_profile_text">No se admite el acceso a las cuentas desde un perfil restringido.</string>
+    <string name="common_google_play_services_restricted_profile_title">Perfil restringido</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error al iniciar sesión en la cuenta especificada. Selecciona otra cuenta.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Error al iniciar sesión</string>
+    <string name="common_google_play_services_unknown_issue">%1$s tiene problemas con los servicios de Google Play. Si el problema persiste, ponte en contacto con el desarrollador para obtener ayuda.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s se basa en los Servicios de Google Play, pero no es compatible con tu dispositivo. Ponte en contacto con el fabricante para obtener asistencia.</string>
+    <string name="common_google_play_services_unsupported_title">Servicios de Google Play</string>
+    <string name="common_google_play_services_update_button">Actualizar</string>
+    <string name="common_google_play_services_update_text">%1$s no funcionará hasta que no actualices los servicios de Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualiza los Servicios de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s no se ejecutará hasta que finalice la actualización en curso de los Servicios de Google Play.</string>
+    <string name="common_google_play_services_updating_title">Actualizando Servicios de Google Play</string>
+    <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de los Servicios de Google Play. Se actualizará en breve.</string>
+    <string name="common_open_on_phone">Abrir en teléfono</string>
+    <string name="common_signin_button_text">Iniciar sesión</string>
+    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
+    <string name="app_name">Musica Anime</string>
+    <string name="artists" />
+    <string name="back">Atrás</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_download">Cancel offline mode</string>
+    <string name="close">Cerrar</string>
+    <string name="contact">CONTACTANOS</string>
+    <string name="download_done">Download completed!</string>
+    <string name="download_error">An error occurred while downloading!</string>
+    <string name="download_wait">There are %d downloads in progress, please wait!</string>
+    <string name="email">Email</string>
+    <string name="error">Error</string>
+    <string name="error_archive">Archivo de música inválido</string>
+    <string name="error_connection">"No hay conexión a internet! 
+Por favor revise o intente otra vez"</string>
+    <string name="error_occurred">Ocurrió un error!</string>
+    <string name="error_playback">No se puede reproducir la canción!</string>
+    <string name="error_search">Parámetro de búsqueda inválido!</string>
+    <string name="error_unknown">Por favor verifique su conexión a internet!</string>
+    <string name="genres">GENEROS</string>
+    <string name="home">HOME</string>
+    <string name="interrupted">Detenido...</string>
+    <string name="listen_offline">Listen to Offline</string>
+    <string name="listen_online">Listen Online</string>
+    <string name="listen_to">Listen to the track offline in the Playlist page</string>
+    <string name="loading">Cargando...(por favor espere)</string>
+    <string name="message">Ingrese su mensaje</string>
+    <string name="message_sending">Enviando mensaje</string>
+    <string name="message_sending_wait">"Enviando un email...
+Por favor espere..."</string>
+    <string name="message_sent">Mensaje enviado!</string>
+    <string name="message_unsent">No se puede enviar el mensaje!</string>
+    <string name="more_artists">MAS ARTISTAS...</string>
+    <string name="name">Nombre</string>
+    <string name="ok">OK</string>
+    <string name="paused">Pausado...</string>
+    <string name="play">Reproducir</string>
+    <string name="playlist">PLAYLIST</string>
+    <string name="playlist_add">Add To Playlist</string>
+    <string name="playlist_added">Canción añadida al playlist!</string>
+    <string name="playlist_not_added">No se puede añadir la canción al playlist!</string>
+    <string name="playlist_remove">Remove From Playlist</string>
+    <string name="playlist_removed">Canción removida del playlist!</string>
+    <string name="reload">Volver a cargar</string>
+    <string name="resumed">Reproduciendo...</string>
+    <string name="search">BUSCAR</string>
+    <string name="search_genre">BUSCAR – GENERO SELECCIONADO</string>
+    <string name="search_hint">Artista o banda</string>
+    <string name="searching">Buscando...</string>
+    <string name="send">ENVIAR</string>
+    <string name="settings">LICENCIADO POR APDAYC</string>
+    <string name="settings_header">"
+
+ Licenciado por APDAYC"</string>
+    <string name="settings_header_off">"
+ Contáctanos: contactos@nazcasoft.com"</string>
+    <string name="settings_header_on" />
+    <string name="settings_text1a">"- Licenciatario: NAZCATEK
+- Nombre del servicio: Musica Gratis
+- Tipo de servicio: Mobile App
+- Website del servicio: market://details?id=com.nazcasoft1.musicagratis"</string>
+    <string name="settings_text1b">"- Nos aseguramos de cumplir con todos los derechos de autor.
+- Si tienes alguna solicitud o queja,
+ no dudes en contactarnos."</string>
+    <string name="settings_text2a" />
+    <string name="settings_text2b" />
+    <string name="settings_text3a" />
+    <string name="settings_text3b" />
+    <string name="settings_toast_off">Alta calidad apagado</string>
+    <string name="settings_toast_on">Alta calidad prendido on</string>
+    <string name="starting">Cargando...(por favor espere)</string>
+    <string name="stop">Detener</string>
+    <string name="stopped">Detenido...</string>
+    <string name="tracks">CANCIONES</string>
+    <string name="your_email">Ingrese su email</string>
+    <string name="your_message">Ingrese su mensaje</string>
+    <string name="your_name">Ingrese su nombre</string>
+</resources>

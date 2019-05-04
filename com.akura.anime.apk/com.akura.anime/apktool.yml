@@ -1,0 +1,37 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.akura.anime.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '8'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  dsn.mf: '8'
+  javamail.charset.map: '8'
+  javamail.default.address.map: '8'
+  javamail.default.providers: '8'
+  javamail.imap.provider: '8'
+  javamail.pop3.provider: '8'
+  javamail.smtp.address.map: '8'
+  javamail.smtp.provider: '8'
+  mailcap: '8'
+  mailcap.default: '8'
+  mimetypes.default: '8'
+  com/sun/mail/dsn/mailcap: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  org/apache/harmony/awt/internal/nls/messages.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1-dirty
+versionInfo:
+  versionCode: '6'
+  versionName: '1.5'

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bar">#aa19191a</color>
+    <color name="bg">#ff000000</color>
+    <color name="fg">#88650209</color>
+    <color name="fg5">#88ff9400</color>
+    <color name="pl">#ff00ff00</color>
+    <color name="sel">#aaff9400</color>
+    <color name="sel2">#aa008000</color>
+    <color name="sl">#ff008000</color>
+    <color name="title">#ffffca00</color>
+    <color name="txt">#ffff9400</color>
+    <color name="black">#ff000000</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1f000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1f000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#de000000</color>
+    <color name="common_plus_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_disabled">#ffaaaaaa</color>
+    <color name="common_plus_signin_btn_text_dark_focused">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_light_default">#ff737373</color>
+    <color name="common_plus_signin_btn_text_light_disabled">#ffaaaaaa</color>
+    <color name="common_plus_signin_btn_text_light_focused">#ff737373</color>
+    <color name="common_plus_signin_btn_text_light_pressed">#de000000</color>
+    <color name="gray">#ff777777</color>
+    <color name="green">#ff008000</color>
+    <color name="white">#ffffffff</color>
+</resources>

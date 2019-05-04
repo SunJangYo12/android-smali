@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="web">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="admob">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="container">false</item>
+    <item type="id" name="add">false</item>
+    <item type="id" name="contact_layout">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="email">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="send">false</item>
+    <item type="id" name="status">false</item>
+    <item type="id" name="genreImage">false</item>
+    <item type="id" name="layoutBox">false</item>
+    <item type="id" name="scroller">false</item>
+    <item type="id" name="bg">false</item>
+    <item type="id" name="searchGroup">false</item>
+    <item type="id" name="artistsRadio">false</item>
+    <item type="id" name="songsRadio">false</item>
+    <item type="id" name="phrase">false</item>
+    <item type="id" name="start">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="tabsLayout">false</item>
+    <item type="id" name="tab_icon">false</item>
+    <item type="id" name="tab_text">false</item>
+    <item type="id" name="control">false</item>
+    <item type="id" name="play">false</item>
+    <item type="id" name="seek">false</item>
+    <item type="id" name="shuffle">false</item>
+    <item type="id" name="repeat">false</item>
+    <item type="id" name="more">false</item>
+    <item type="id" name="web_layout">false</item>
+</resources>

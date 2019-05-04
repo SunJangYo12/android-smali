@@ -1,0 +1,33 @@
+penambahan Toast dan juga copy /data/data/com.akura.anime/files/hash ke /sdcard/judul.mp3
+
+** edit di file MP3PlayerService.smali **
+penambahan method save di line 1357-1551 dengan code java sebagai berikut:
+	
+	public void save(Context context, String data, String title){
+		title = title+".mp3";
+
+		if (!new File(Environment.getExternalStorageDirectory()+"/"+title).exists()) {
+			try {
+				Runtime.getRuntime().exec("cp "+data+" "+Environment.getExternalStorageDirectory());
+			}catch(Exception e){}
+
+			File dir = Environment.getExternalStorageDirectory();
+			String[] hashtitle = data.split("/");
+
+			File from = new File(dir, hashtitle[hashtitle.length-1]);
+			File to = new File(dir, title);
+
+			if (from.exists()) {
+				from.renameTo(to);
+			}
+
+			Toast.makeText(context, "copy "+Environment.getExternalStorageDirectory(), Toast.LENGTH_LONG).show();
+
+		} else {
+			Toast.makeText(context, "sudah ada", Toast.LENGTH_LONG).show();
+		}
+
+	}
+
+
+dan juga penambahan code smali di line 1848-1862 

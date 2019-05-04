@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_api_unavailable_text">%1$s requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"%1$s won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"%1$s won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_resolution_required_text">Please complete action required by %1$s.</string>
+    <string name="common_google_play_services_resolution_required_title">Google Play services requires an action</string>
+    <string name="common_google_play_services_restricted_profile_text">Accessing accounts from a restricted profile is not supported.</string>
+    <string name="common_google_play_services_restricted_profile_title">Restricted Profile</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="app_name">Anime Music</string>
+    <string name="artists" />
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_download">Cancel offline mode</string>
+    <string name="close">Close</string>
+    <string name="contact">CONTACT US</string>
+    <string name="download_done">Download completed!</string>
+    <string name="download_error">An error occurred while downloading!</string>
+    <string name="download_wait">There are %d downloads in progress, please wait!</string>
+    <string name="email">Email</string>
+    <string name="error">Error</string>
+    <string name="error_archive">Invalid song archive</string>
+    <string name="error_connection">"Internet connection not available! 
+Please check or try again"</string>
+    <string name="error_occurred">An error occurred!</string>
+    <string name="error_playback">Unable to play song!</string>
+    <string name="error_search">Invalid search parameter!</string>
+    <string name="error_unknown">Please verify your internet connection!</string>
+    <string name="genres">GENRES</string>
+    <string name="home">HOME</string>
+    <string name="interrupted">Stopped...</string>
+    <string name="listen_offline">Listen to Offline</string>
+    <string name="listen_online">Listen Online</string>
+    <string name="listen_to">Listen to the track offline in the Playlist page</string>
+    <string name="loading">Loading...(please wait)</string>
+    <string name="message">Enter your message</string>
+    <string name="message_sending">Sending message</string>
+    <string name="message_sending_wait">"Sending an email...
+Please wait..."</string>
+    <string name="message_sent">Message sent!</string>
+    <string name="message_unsent">Unable to send message!</string>
+    <string name="more_artists">MORE ARTISTS...</string>
+    <string name="name">Name</string>
+    <string name="ok">OK</string>
+    <string name="paused">Paused...</string>
+    <string name="play">Play</string>
+    <string name="playlist">PLAYLIST</string>
+    <string name="playlist_add">Add To Playlist</string>
+    <string name="playlist_added">Track added to Playlist!</string>
+    <string name="playlist_not_added">Unable to add song to the playlist!</string>
+    <string name="playlist_remove">Remove From Playlist</string>
+    <string name="playlist_removed">Track removed from the playlist!</string>
+    <string name="reload">Reload</string>
+    <string name="resumed">Playing back...</string>
+    <string name="search">SEARCH</string>
+    <string name="search_genre">SEARCH – SELECTED GENRE</string>
+    <string name="search_hint">Artist or band</string>
+    <string name="searching">Searching...</string>
+    <string name="send">SEND</string>
+    <string name="settings">LICENSED BY APDAYC</string>
+    <string name="settings_header">"
+
+ Licensed by APDAYC"</string>
+    <string name="settings_header_off">"
+ Contact us: contactos@nazcasoft.com"</string>
+    <string name="settings_header_on" />
+    <string name="settings_text1a">"- Licensee Name: NAZCATEK
+- Name of Service: Free Music
+- Service Type: Mobile App
+- Service Website: market://details?id=com.nazcasoft1.musicagratis"</string>
+    <string name="settings_text1b">"- If you have any request or complaint,
+ don’t hesitate to contact us."</string>
+    <string name="settings_text2a" />
+    <string name="settings_text2b" />
+    <string name="settings_text3a" />
+    <string name="settings_text3b" />
+    <string name="settings_toast_off">High quality is off</string>
+    <string name="settings_toast_on">High quality is on</string>
+    <string name="starting">Loading...(please wait)</string>
+    <string name="stop">Stop</string>
+    <string name="stopped">Stopped...</string>
+    <string name="tracks">TRACKS</string>
+    <string name="your_email">Enter your email address</string>
+    <string name="your_message">Enter your message</string>
+    <string name="your_name">Enter your name</string>
+    <string name="accept">Accept</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7313160148273812/2090361488</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Decline</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="store_picture_title">Save image</string>
+</resources>

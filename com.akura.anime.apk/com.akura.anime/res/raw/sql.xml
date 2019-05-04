@@ -1,0 +1,38 @@
+<sql>
+	<statement>
+	CREATE TABLE IF NOT EXISTS artist 
+	(
+		_id 			INTEGER PRIMARY KEY AUTOINCREMENT,
+		artist			INTEGER,
+		name			TEXT,
+		genre			INTEGER,
+		ranking			INTEGER,
+		decade			INTEGER
+	)
+	
+	</statement>	
+	
+	<statement>
+	CREATE TABLE IF NOT EXISTS tracks 
+	(
+		_id 			INTEGER PRIMARY KEY AUTOINCREMENT,
+		track			INTEGER,
+		artist			INTEGER,
+		title			TEXT,
+		genre			INTEGER
+	)
+	
+	</statement>	
+		
+	<statement>
+	CREATE TABLE IF NOT EXISTS playlist 
+	(
+		_id 			INTEGER PRIMARY KEY AUTOINCREMENT,
+		artist			INTEGER,
+		track			INTEGER,
+		title			TEXT,
+		path			TEXT
+	)
+		
+	</statement>	
+</sql>

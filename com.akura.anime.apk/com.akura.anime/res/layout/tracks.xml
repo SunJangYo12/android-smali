@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:ads="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.gms.ads.AdView android:gravity="center_horizontal" android:id="@id/admob" android:layout_width="fill_parent" android:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="@string/banner_ad_unit_id" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <HorizontalScrollView android:id="@id/scroller" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="@color/title" android:ellipsize="end" android:id="@id/title" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tracks" android:maxLines="1" android:lines="1" android:layout_weight="1.0" />
+                </HorizontalScrollView>
+                <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|left" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/control" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:layout_gravity="center_vertical" android:id="@id/play" android:background="@color/bg" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play_button" />
+                <LinearLayout android:gravity="center|left" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <SeekBar android:layout_gravity="center_vertical" android:id="@id/seek" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="10.0dip" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/progress_styled" android:minHeight="10.0dip" android:thumb="@drawable/thumb" />
+                </LinearLayout>
+                <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:textColor="@color/txt" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Shuffle" />
+                        <ImageButton android:id="@id/shuffle" android:background="#00000000" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/off" />
+                    </TableRow>
+                    <TableRow android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:textColor="@color/txt" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Repeat" />
+                        <ImageButton android:id="@id/repeat" android:background="#00000000" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/off" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
